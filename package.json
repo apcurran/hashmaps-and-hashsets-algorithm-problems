@@ -1,16 +1,19 @@
 {
-  "name": "hashmaps-and-hashsets",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "Alex Curran",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
-  },
-  "devDependencies": {
-    "oxlint": "^1.60.0"
-  }
+    "name": "hashmaps-and-hashsets",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "Alex Curran",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "lint": "oxlint",
+        "lint:fix": "oxlint --fix",
+        "fmt": "oxfmt",
+        "fmt:check": "oxfmt --check"
+    },
+    "devDependencies": {
+        "oxfmt": "^0.45.0",
+        "oxlint": "^1.60.0"
+    }
 }
