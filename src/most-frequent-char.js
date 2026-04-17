@@ -4,9 +4,13 @@
  * space: O(n)
  *
  * @param {string} str
- * @returns {string} - char with highest frequency in string (keep earlier one if tied count)
+ * @returns {string|null} - char with highest frequency in string (keep earlier one if tied count)
  */
 function mostFrequentChar(str) {
+    if (str.length === 0) {
+        return null;
+    }
+
     let charCounts = new Map();
     let mostFreq = str[0];
 
