@@ -1,7 +1,7 @@
 /**
  * solution 1 -- brute force
  * time: O(n * m)
- * space: O(1) -- not including results array
+ * space: O(min(n, m)) -- including results array
  *
  * @param {number[]} nums1
  * @param {number[]} nums2
